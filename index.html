@@ -17,6 +17,11 @@
     />
 
     <title>Loaner</title>
+    <style>
+      #loading, #results {
+        display: none;
+      }
+    </style>
   </head>
   <body class="bg-dark">
     <div class="container">
@@ -45,11 +50,9 @@
               </div>
             </form>
             <!-- loader -->
-            <!--
             <div id="loading">
               <img src="img/loading.gif" alt="">
             </div>
-            -->
             <!-- results -->
             <div id="results" class="pt-2">
               <h5>Results</h5>
@@ -66,7 +69,7 @@
                   </div>
               </div>
               <div class="form-group">
-                  <h6>total Interest</h6>
+                  <h6>Total Interest</h6>
                   <div class="input-group">
                     <input type="number" class="form-control" id="total-interest" disabled>
                   </div>
